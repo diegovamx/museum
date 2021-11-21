@@ -1,0 +1,166 @@
+/* Body & HTML */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
+  font-family: "Shippori Antique", sans-serif;
+}
+/* Icons */
+.arrow-down {
+  color: #ffffff;
+  font-size: 1.75rem;
+  transition: .75s;
+}
+.arrow-down:hover {
+  transform: translateY(3px) scale(1.1);
+  cursor: pointer;
+}
+.museum-icons {
+  color: #ffffff;
+  font-size: 3rem;
+  transition: 1s;
+}
+.museum-icons:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+.correctly-icon {
+  color: #ffffff;
+  font-size: 3rem;
+  transition: 1s;
+}
+.correctly-icon:hover {
+  transform: scale(1.1);
+}
+.social-icons {
+  color: #ffffff;
+  font-size: 3rem;
+  transition: .75s;
+  margin: 0 30px;
+}
+.social-icons:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* Header */
+  /* Navbar */
+  #main-navbar .navbar-brand {
+    color: #ffffff;
+    font-size: 2rem;
+    transition: 1s;
+  }
+  #main-navbar .navbar-brand:hover {
+    color: #00ffcc;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  #main-navbar .nav-link {
+    color: #a5a5a5;
+    font-size: 1.25rem;
+    margin: 0.5rem;
+    transition: 0.25s;
+  }
+  #main-navbar .nav-link:hover {
+    color: #ffffff;
+  }
+/* Main Content */
+  /* Intro Section */
+    #museum-column-text {
+      margin-bottom: 125px;
+    }
+    #museum-title {
+      font-size: 2.25rem;
+      color: #ffffff;
+      margin-bottom: 1rem;
+    }
+    #museum-description {
+      font-size: 1.5rem;
+      color: #ffffff;
+    }
+  /* Leisure Section */
+  #leisure-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  #leisure-description {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  /* Innovation Section */
+  #innovation-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  #innovation-description {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  /* Education Section */
+  #education-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  #education-description {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  /* Connection Section */
+  #connection-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  #connection-description {
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  /* Reflection Section */
+  #reflection-section {
+    padding: 250px 0;
+  }
+  #reflection-text {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  .text-underline {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  .text-underline:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .text-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .text-underline:hover {
+    cursor: pointer;
+  }
+  /* Footer */
+    /* Copyright Section */
+    #copyright-text {
+      font-size: 1.5rem;
+      color: #ffffff;
+      margin: 50px 0;
+      transition: 1s;
+    }
+    #copyright-text:hover {
+      transform: translateY(-5px);
+      cursor: pointer;
+    }
+    
+
+
