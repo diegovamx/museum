@@ -161,8 +161,24 @@ body {
     border-bottom: 1px solid #ffffff;
   }
   #reflection-text {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: #ffffff;
+  }
+  .tickets-button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    transition: .5s;
+    padding: 5px 30px;
+    margin-top: 2.5rem;
+  }
+  .tickets-button:hover {
+    background-color: #ffffff;
+    color: #000000;
   }
   /* Carousel */
   .carousel-inner {
@@ -249,6 +265,124 @@ body {
         font-size: 1.5rem;
       }
     }
+    #contact-title {
+      font-size: 2rem;
+      color: #ffffff;
+      transition: 1s;
+    }
+    .contact-description {
+      font-size: 1.25rem;
+      color: #ffffff;
+    }
+    @media (min-width: 375px) {
+      #contact-title {
+        font-size: 2.5rem;
+      }
+    }
+    #address-title {
+      font-size: 2rem;
+      color: #ffffff;
+      transition: 1s;
+    }
+    .address-description {
+      font-size: 1.25rem;
+      color: #ffffff;
+    }
+    @media (min-width: 375px) {
+      #address-title {
+        font-size: 2.5rem;
+      }
+    }
+/* About Page */
+#about-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+#about-title {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.about-description {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+/* Tickets Page */
+#tickets-section {
+  border-bottom: 1px solid #ffffff;
+}
+#tickets-title {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+#tickets-description {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+#tickets-video-section {
+  border-bottom: 1px solid #ffffff;
+  max-height: 350px;
+}
+#tickets-video {
+  height: auto;
+}
+#ticket-form-section {
+  border-left: 1px solid #ffffff;
+}
+#ticket-form {
+  padding: 0 50px
+}
+.form-control {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1rem;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+#ticket-form label {
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+#ticket-form .custom-control-label {
+  color: #ffffff;
+  font-size: 1rem;
+}
 
+#form-name{
+  color: #ffffff;
+  background-color: transparent;
+}
 
+#form-email{
+  color: #ffffff;
+  background-color: transparent;
+}
+#form-amount{
+  color: #ffffff;
+  background-color: transparent;
+}
+#form-amount-selected {
+  color: #ffffff;
+  background-color: transparent;
+}
+#form-buy {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  color: #000000;
+  padding: 5px 20px;
+  transition: 1s;
+}
+#form-buy:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+::placeholder { 
+  color: white !important;
+}
 
